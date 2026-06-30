@@ -8,9 +8,11 @@ const Header = () => {
 
       <nav className="flex gap-4 text-lg font-semibold  items-center  flex-wrap">
         <Link href="/about">About</Link>
-        <Link href="/login">login</Link>
         <Link href="/register">Teams</Link>
         <Link href="/Tutorials">Tutorials</Link>
+        <Link href="/stories">Stories</Link>
+        <Link href="/login">login</Link>
+        <Link href="/register">register</Link>
       </nav>
     </header>
   );
